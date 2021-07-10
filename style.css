@@ -10,6 +10,7 @@
 a {
   text-decoration: none;
   color: rgb(22, 129, 190);
+  font-weight: lighter;
 }
 h1,
 h2,
@@ -148,6 +149,7 @@ header nav > ul > li:hover .submenu {
 .slider-head h2,
 .slider-head a {
   padding: 2px 20px;
+  text-align: center;
 }
 .slider-head h2 {
   background-color: #b19777;
@@ -171,7 +173,10 @@ header nav > ul > li:hover .submenu {
   position: absolute;
   bottom: 31px;
   right: 22px;
-  color: #303438;
   line-height: 2;
   width: 70%;
+}
+.slider-caption h3,
+.slider-caption p {
+  color: #303438;
 }
