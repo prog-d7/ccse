@@ -9,8 +9,8 @@
 
 a {
   text-decoration: none;
-  color: rgb(22, 129, 190);
-  font-weight: lighter;
+  color: rgb(22, 129, 190) !important;
+  font-weight: lighter !important;
 }
 h1,
 h2,
@@ -148,7 +148,7 @@ header nav > ul > li:hover .submenu {
 }
 .slider-head h2,
 .slider-head a {
-  padding: 2px 20px;
+  padding: 5px 20px;
   text-align: center;
 }
 .slider-head h2 {
@@ -157,7 +157,6 @@ header nav > ul > li:hover .submenu {
   width: 220px;
 }
 .slider-head a {
-  line-height: 2.8;
 }
 .slider-body {
   position: relative;
