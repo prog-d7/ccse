@@ -19,6 +19,54 @@ h5,
 h6 {
   font-weight: 500;
 }
+/*for all pages importint*/
+.container {
+  width: 956px;
+  margin: auto;
+  padding: 0;
+}
+
+.list_right {
+  display: none;
+}
+
+.pagesuj {
+  width: 960px !important;
+  float: left;
+  margin-left: 5px;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+
+.page_title {
+  background-image: -webkit-gradient(
+    linear,
+    0% 50%,
+    100% 50%,
+    color-stop(0%, rgba(26, 132, 185, 0.25)),
+    color-stop(100%, rgba(26, 132, 185, 1))
+  );
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgba(26, 132, 185, 0.25) 0%,
+    rgba(26, 132, 185, 1) 100%
+  );
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 132, 185, 0.25) 0%,
+    rgb(26, 132, 185) 100%
+  );
+}
+
+h2 {
+  padding: 0px;
+  margin: 0px;
+  color: #092c6b;
+  width: 100%;
+  border-bottom: none !important;
+  font-size: 18px;
+  font-weight: lighter;
+}
 /*header and navbar*/
 header {
   width: 960px;
