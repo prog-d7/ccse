@@ -148,15 +148,17 @@ header nav > ul > li:hover .submenu {
 }
 .slider-head h2,
 .slider-head a {
-  padding: 5px 20px;
+  padding: 8px 20px;
   text-align: center;
 }
 .slider-head h2 {
   background-color: #b19777;
   color: #ffffff;
   width: 220px;
+  font-size: 21px;
 }
 .slider-head a {
+  line-height: 2.5;
 }
 .slider-body {
   position: relative;
