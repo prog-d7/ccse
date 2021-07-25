@@ -11,7 +11,6 @@
   -moz-box-sizing: border-box;
 }
 body {
-  background-color: #f5f5f8;
 }
 
 .c1-container a {
@@ -116,6 +115,7 @@ h2 {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  margin: auto;
 }
 .m-col > ul {
   margin-bottom: 15px;
@@ -196,6 +196,10 @@ h2 {
   color: #1d2e3d;
   font-weight: bold;
   font-size: 16px;
+}
+.c1-header .c1-nav .c1-submenu h2 {
+  font-size: 20px;
+  color: #1d2e3d !important;
 }
 .c1-header .menu-button {
   -moz-transition: background 0.2s;
@@ -590,21 +594,21 @@ p {
 .body-content #second-details[open] #second-summary:after {
   content: "-";
 }
-/*footer King Salman*/
-.footer {
+/*c1-footer King Salman*/
+.c1-footer {
   background-color: #f5f1ee;
   border-top: 1px solid #b4b4b4;
   font-size: 15px;
   text-align: center;
 }
-.footer .quote {
+.c1-footer .quote {
   position: relative;
   margin: 15px auto;
   width: 40%;
   top: 15px;
 }
 
-.footer .quote .quote-marks {
+.c1-footer .quote .quote-marks {
   color: #ddd;
   font-family: Droid Arabic Kufi, serif;
   font-size: 180px;
@@ -618,7 +622,7 @@ p {
   z-index: 0;
 }
 
-.footer .quote q {
+.c1-footer .quote q {
   color: #333;
   display: block;
   font-family: Droid Arabic Kufi;
