@@ -29,7 +29,7 @@ h6 {
 /*for all pages importint*/
 .c1-container {
   width: 956px;
-  margin: auto;
+  margin: 5px auto;
   padding: 0;
   color: #383838;
   background-color: #ffffff66;
@@ -52,7 +52,9 @@ ul {
   box-sizing: border-box;
   padding-top: 10px;
 }
-
+.pagesuj h2 {
+  color: #383838;
+}
 .page_title {
   background-image: -webkit-gradient(
     linear,
@@ -73,10 +75,10 @@ ul {
   );
 }
 .page_title {
-  margin-right: -9px;
+  margin-right: -11px;
 }
 table#ContentPlaceHolder1_ViewTable {
-  margin-right: -13px;
+  margin-right: -6px;
 }
 
 h2 {
