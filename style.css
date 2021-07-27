@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo");
-@import url("https://fonts.googleapis.com/css2?family=Tajawal");
-*,
-*::before,
-*::after {
+.c1-container,
+.c1-container::before,
+.c1-container::after {
   margin: 0;
   padding: 0;
 
@@ -32,8 +31,8 @@ h6 {
   margin: 5px auto;
   padding: 0;
   color: #383838;
-  background-color: #ffffff66;
-  font-family: "Tajawal", tahoma, sans-serif !important;
+  background-color: #f3f3f3;
+  font-family: "Cairo", tahoma, sans-serif !important;
 }
 
 .list_right {
@@ -99,7 +98,7 @@ h2 {
   margin-bottom: 10px;
   padding: 0 10px;
   border-radius: 5px 5px 0 0;
-  box-shadow: 0 1px 5px 0 rgb(21 24 26 / 10%);
+  box-shadow: inset 0px 0px 3px 0px rgb(21 24 26 / 35%);
 }
 .c1-header .c1-nav .c1-logo {
   width: 100px;
@@ -118,6 +117,7 @@ h2 {
   width: 100%;
   justify-content: space-around;
   margin: auto;
+  padding-right: 0px;
 }
 .m-col > ul {
   margin-bottom: 15px;
@@ -128,7 +128,7 @@ h2 {
   color: #548292;
   font-weight: bold;
   font-size: 16px;
-  font-family: "Tajawal";
+  font-family: "Cairo";
   padding: 21px 0;
   border-bottom: 4px solid transparent;
   transition: border-bottom 0.2s ease;
@@ -144,10 +144,11 @@ h2 {
 }
 .c1-header .c1-nav .join {
   background-color: #b19777;
-  width: 157px;
-  padding: 5px 15px;
+  width: 180px;
+  padding: 5px 0;
   cursor: pointer;
   font-weight: 800;
+  text-align: center;
 }
 .c1-header .c1-nav .join:hover {
   background-color: #a0886c;
@@ -439,6 +440,7 @@ p {
   height: 220px;
   display: flex;
   justify-content: space-between;
+  padding-right: 0px;
 }
 .body-content .box-wrap li.box {
   display: block;
@@ -520,9 +522,8 @@ p {
   color: #707070;
   font-size: 32px;
   font-weight: bold;
-  margin: -4px 0px 0px 10px;
+  margin: -13px 0;
   padding: 1px 0 3px 0;
-  text-align: center;
   width: 30px;
   position: absolute;
   left: 0;
@@ -532,10 +533,18 @@ p {
   margin-bottom: 1px;
   font-size: 20px;
   color: #303030;
-  padding-right: 10px;
   position: relative;
+  overflow: hidden;
+  max-height: 65px;
+  transition: max-height 0.7s ease;
 }
-
+/*transition */
+.body-content details[open] {
+  max-height: 600px;
+}
+.body-content #first-details[open] {
+  max-height: 1600px;
+}
 .body-content details ul {
   margin: 0;
   padding-top: 10px;
@@ -595,6 +604,28 @@ p {
 }
 .body-content #second-details[open] #second-summary:after {
   content: "-";
+}
+/*FAQ*/
+.body-content .faq details {
+  background-color: #e0e0e0;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #303030;
+  position: relative;
+  overflow: hidden;
+  max-height: 48px;
+  transition: max-height 0.7s ease;
+}
+.body-content .faq details[open] {
+  max-height: 400px;
+}
+.body-content .faq details div {
+  border-right: 2px solid #548292;
+  padding: 5px 15px;
+  background-color: #f1f1f1;
+}
+.body-content .faq details div p {
+  margin: 0;
 }
 /*c1-footer King Salman*/
 .c1-footer {
@@ -696,66 +727,66 @@ p {
   padding: 20px;
 }
 /*tabs*/
-.nav {
+.c1-container .nav {
   background-color: transparent !important;
   height: inherit !important;
   border: 0 !important;
 }
-.nav-tabs {
+.c1-container .nav-tabs {
   border-bottom: 0;
 }
-.nav-tabs .nav-item {
+.c1-container .nav-tabs .nav-item {
   margin-left: 5px;
   background-color: #dddddd;
 }
 
-.nav-tabs .nav-link.active {
+.c1-container .nav-tabs .nav-link.active {
   border: 1px solid #777 !important;
   border-bottom: 0 #fff solid !important;
   border-top: 4px solid #777 !important;
   margin-bottom: -1px !important;
-  background-color: #f1f1f1;
+  background-color: #f9f9f9;
 }
-.nav-tabs .nav-link {
+.c1-container .nav-tabs .nav-link {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
-.tab-content {
+.c1-container .tab-content {
   border-top: 1px solid #777;
   border-right: 1px solid #777;
-  background-color: #f1f1f1;
+  background-color: #f9f9f9;
   padding: 10px 20px;
 }
 /* tabs content*/
-.tab-pane .pargraph p {
+.c1-container .tab-pane .pargraph p {
   margin: 10px 0 !important;
   text-align: justify;
   line-height: 1.5 !important;
 }
 
-.tab-pane .pargraph .sign {
+.c1-container .tab-pane .pargraph .sign {
   position: relative;
   right: 250px;
   margin-top: 50px;
 }
-.tab-pane .pargraph .sign p {
+.c1-container .tab-pane .pargraph .sign p {
   color: #000;
   font-weight: bold !important;
   text-align: center;
   line-height: 2 !important;
 }
-.tab-pane .dean-office {
+.c1-container .tab-pane .dean-office {
   margin-top: 10px;
   padding: 15px;
-  border-right: 2px solid #777;
+  border-right: 2px solid #018aff;
 }
-.tab-pane .plan-btn {
+.c1-container .tab-pane .plan-btn {
   background-color: #c5b192;
   padding: 5px;
   color: #fff;
   box-shadow: 0 1px 2px -1px #000;
 }
-.tab-pane .plan-btn:hover {
+.c1-container .tab-pane .plan-btn:hover {
   background-color: #c5bbab;
 }
 
