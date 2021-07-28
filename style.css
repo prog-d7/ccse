@@ -88,8 +88,7 @@ h2 {
 /*header and navbar*/
 
 .c1-header .c1-nav {
-  background-color: #f9f9f9f2;
-  border-bottom: 1px solid #dbdbdb;
+  background-color: #fff;
   width: 100%;
   height: 70px;
   display: flex;
@@ -98,7 +97,8 @@ h2 {
   margin-bottom: 10px;
   padding: 0 10px;
   border-radius: 5px 5px 0 0;
-  box-shadow: inset 0px 0px 3px 0px rgb(21 24 26 / 35%);
+  box-shadow: 0px 1px 1px 0px rgb(21 24 26 / 35%);
+  user-select: none;
 }
 .c1-header .c1-nav .c1-logo {
   width: 100px;
@@ -115,8 +115,9 @@ h2 {
 .c1-header .c1-nav > ul {
   display: flex;
   width: 100%;
+  height: 100%;
   justify-content: space-around;
-  margin: auto;
+  margin: 0;
   padding-right: 0px;
 }
 .m-col > ul {
@@ -127,12 +128,15 @@ h2 {
   list-style: none;
   color: #548292;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Cairo";
-  padding: 21px 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
   border-bottom: 4px solid transparent;
-  transition: border-bottom 0.2s ease;
+  transition: border-bottom 0.2s;
 }
+
 .c1-submenu ul li {
   padding: 2px 0 !important;
 }
@@ -157,6 +161,13 @@ h2 {
   border-bottom: 4px solid #1d2e3d;
   color: #1d2e3d;
 }
+.c1-header > .c1-nav > ul > li > span {
+  transition: all 0.2s;
+}
+
+.c1-header .c1-nav > ul > li:hover span {
+  margin-bottom: 9px;
+}
 .c1-header .c1-nav .join a {
   color: #f7f7f7 !important;
 }
@@ -169,12 +180,12 @@ h2 {
 }
 .c1-header .c1-nav .c1-submenu {
   position: absolute;
-  background-color: #efefef;
+  background-color: #e8ecef;
   top: 70px;
   left: 0;
   width: 956px;
   padding: 20px;
-  box-shadow: inset 0px 1px 5px 0px rgb(21 24 26 / 10%);
+  box-shadow: 0px 5px 5px 0px rgb(21 24 26 / 10%);
   z-index: 999;
 }
 .c1-header .c1-nav .c1-submenu .m-row {
@@ -263,7 +274,8 @@ h2 {
   font-size: 18px;
 }
 .carousel .card .caption p {
-  font-size: 14px;
+  font-size: 13px;
+  margin-top: 10px;
 }
 .owl-prev,
 .owl-next {
@@ -299,31 +311,57 @@ h2 {
 /*c1-slider in main page*/
 
 .c1-slider {
-  width: 100%;
+  width: 90%;
   overflow: hidden;
   background-color: #fff;
   box-shadow: 0 1px 5px 0 rgb(21 24 26 / 10%);
-  margin-bottom: 40px;
   border-radius: 0px 0px 10px 10px;
+}
+.c1-slider-bg {
+  height: 700px;
+  width: 956px;
+  margin-right: -15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c1-bg-slide1,
+.c1-bg-slide3 {
+  background-color: #eaeaea;
 }
 .c1-slider-head {
   display: flex;
   justify-content: space-between;
 }
 .c1-slider-head h2,
-.c1-slider-head a {
+.c1-slider-head a.c1-slider-more {
   padding: 8px 20px;
   text-align: center;
 }
+
 .c1-slider-head h2 {
   background-color: #b19777;
   color: #ffffff;
   width: 220px;
   font-size: 21px;
   line-height: 1.8;
+  margin: 0;
 }
-.c1-slider-head a {
+.c1-slider-head a.c1-slider-more {
   line-height: 2.5;
+  position: relative;
+}
+.c1-slider-head a.c1-slider-more:before {
+  content: "";
+  position: absolute;
+  background-color: #b19777;
+  width: 0;
+  bottom: 6px;
+  height: 2px;
+  transition: width 0.3s;
+}
+.c1-slider-head a.c1-slider-more:hover:before {
+  width: 78px;
 }
 .c1-slider-body {
   position: relative;
