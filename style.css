@@ -863,7 +863,7 @@ p {
   border-bottom: 0 #fff solid !important;
   border-top: 4px solid #777 !important;
   margin-bottom: -1px !important;
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 .c1-container .nav-tabs .nav-link {
   border-top-right-radius: 0;
@@ -873,7 +873,7 @@ p {
 .c1-container .tab-content {
   border-top: 1px solid #777;
   border-right: 1px solid #777;
-  background-color: #f9f9f9;
+  background-color: #fff;
   padding: 10px 20px;
 }
 .nav-link {
@@ -898,9 +898,10 @@ p {
   line-height: 2 !important;
 }
 .c1-container .tab-pane .dean-office {
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 15px;
-  border-right: 2px solid #5b88b1;
+  border-right: 4px solid #5b88b1;
+  background-color: #f9f9f9;
 }
 .c1-container .tab-pane .plan-btn {
   background-color: #c5b192;
