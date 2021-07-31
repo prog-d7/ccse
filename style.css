@@ -98,7 +98,6 @@ h2 {
   position: relative;
   margin-bottom: 10px;
   padding: 0 10px;
-  border-radius: 5px 5px 0 0;
   box-shadow: 0px 1px 1px 0px rgb(21 24 26 / 35%);
   user-select: none;
 }
@@ -423,7 +422,7 @@ h2 {
 
 .c1-slider-head h2 {
   background-color: #b19777;
-  color: #ffffff;
+  color: #ffffff !important;
   width: 220px;
   font-size: 21px;
   line-height: 1.8;
@@ -467,7 +466,7 @@ h2 {
 }
 .c1-slider-caption h3,
 .c1-slider-caption p {
-  color: #303438;
+  color: #303438 !important;
 }
 /*body content*/
 .body-content {
@@ -622,7 +621,7 @@ p {
   background-color: #548292;
   padding: 15px;
   margin: 0;
-  color: #fff;
+  color: #fff !important;
   font-size: 26px;
   margin-top: 15px;
 }
@@ -870,11 +869,15 @@ p {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
+
 .c1-container .tab-content {
   border-top: 1px solid #777;
   border-right: 1px solid #777;
   background-color: #f9f9f9;
   padding: 10px 20px;
+}
+.nav-link {
+  color: #383838;
 }
 /* tabs content*/
 .c1-container .tab-pane .pargraph p {
@@ -897,7 +900,7 @@ p {
 .c1-container .tab-pane .dean-office {
   margin-top: 10px;
   padding: 15px;
-  border-right: 2px solid #018aff;
+  border-right: 2px solid #5b88b1;
 }
 .c1-container .tab-pane .plan-btn {
   background-color: #c5b192;
@@ -936,7 +939,7 @@ p {
   background-color: #548292;
   padding: 15px;
   margin: 0;
-  color: #fff;
+  color: #fff !important;
   font-size: 26px;
   margin-top: 15px;
 }
@@ -984,7 +987,7 @@ p {
   background-color: #548292;
   padding: 15px;
   margin: 0;
-  color: #fff;
+  color: #fff !important;
   font-size: 26px;
   margin-top: 15px;
 }
@@ -1000,7 +1003,7 @@ p {
   display: inline-block;
   padding: 5px;
   background-color: #548292;
-  color: #fff;
+  color: #fff !important;
   position: absolute;
   top: -20px;
 }
@@ -1032,10 +1035,10 @@ ul.c1-en-exams li {
   margin-top: 20px;
 }
 .second-title {
-  color: #7a7a7a;
+  color: #7a7a7a !important;
 }
 .second-par {
-  color: #7a7a7a;
+  color: #7a7a7a !important;
 }
 /*grid system*/
 [class^="c1-grid-b"] {
