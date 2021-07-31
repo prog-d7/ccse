@@ -51,8 +51,10 @@ ul {
   box-sizing: border-box;
   padding-top: 10px;
 }
-.pagesuj h2 {
-  color: #383838;
+
+.pagesuj h2,
+.pagesuj h3 {
+  color: inherit !important;
 }
 .page_title {
   background-image: -webkit-gradient(
