@@ -109,10 +109,10 @@ h2 {
 }
 .c1-header .c1-nav .c1-logo img {
   cursor: pointer;
-  width: 75px;
+  width: 50px;
   position: relative;
-  top: -12px;
-  right: -6px;
+  top: -4px;
+  right: 0;
 }
 .c1-header .c1-nav > ul {
   display: flex;
