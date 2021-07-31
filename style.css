@@ -1086,18 +1086,19 @@ ul.c1-en-exams li {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: #38403aa3;
+  background-color: #65716870;
   color: #fff;
   padding: 10px;
 }
 .c1-grid-content:hover {
-  background-color: #2e3530e8;
+  background-color: #2e353087;
 }
 .c1-grid-content h5 {
   color: #a9a9a9;
 }
 .c1-grid-content h3 {
   text-shadow: 1px 1px 2px #212121;
+  color: #fff !important;
 }
 .c1-grid-content a {
   position: absolute;
