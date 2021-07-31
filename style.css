@@ -1099,6 +1099,7 @@ ul.c1-en-exams li {
 .c1-grid-content h3 {
   text-shadow: 1px 1px 2px #212121;
   color: #fff !important;
+  text-align: right;
 }
 .c1-grid-content a {
   position: absolute;
