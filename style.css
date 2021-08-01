@@ -1166,3 +1166,54 @@ ul.c1-en-exams li {
   position: absolute;
   right: -23px;
 }
+/*media page*/
+.c1-media-head {
+}
+.c1-addr-wrap {
+}
+.c1-addr-wrap .c1-addr {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  width: 925px;
+  height: 376px;
+  overflow: hidden;
+}
+.c1-addr-wrap .c1-addr .c1-addr-img {
+  background-color: #fff;
+  width: 35%;
+}
+.c1-addr-wrap .c1-addr .c1-addr-info {
+  width: 65%;
+  height: 100%;
+  background-color: #4f6571;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.c1-addr-wrap .c1-addr .c1-addr-info ul {
+  color: #dedede;
+  list-style: none;
+  line-height: 2.9;
+}
+.c1-addr-map {
+  font-size: 19px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: #000000;
+}
+a.c1-addr-mail {
+  background-color: #fff;
+  font-size: 19px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  position: relative;
+  top: 20px;
+  right: 50px;
+}
+.c1-media-icons {
+  position: relative;
+  top: 23px;
+  right: 200px;
+}
