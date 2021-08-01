@@ -1141,15 +1141,19 @@ ul.c1-en-exams li {
 }
 .c1-vb-list ul.c1-vb-content {
   margin-top: 50px;
-  margin-right: -40px;
+  margin-right: -14px;
+  list-style: none;
 }
 .c1-vb-list ul.c1-vb-content li {
   padding: 5px;
+  position: relative;
 }
 .c1-vb-list ul.c1-vb-content li span {
-  padding: 0 13px;
+  padding: 0px 5px;
   margin-left: 10px;
-  font-size: 14px;
+  font-size: 15px;
   background-color: #656565;
   color: #fff;
+  position: absolute;
+  right: -23px;
 }
