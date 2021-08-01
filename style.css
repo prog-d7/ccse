@@ -1143,10 +1143,10 @@ ul.c1-en-exams li {
   margin-top: 50px;
   margin-right: -40px;
 }
-ul.c1-vb-content li {
+.c1-vb-list ul.c1-vb-content li {
   padding: 5px;
 }
-ul.c1-vb-content li span {
+.c1-vb-list ul.c1-vb-content li span {
   padding: 0 13px;
   margin-left: 10px;
   font-size: 14px;
