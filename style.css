@@ -1167,33 +1167,35 @@ ul.c1-en-exams li {
   right: -23px;
 }
 /*media page*/
-.c1-media-head {
-}
-.c1-addr-wrap {
-}
+
 .c1-addr-wrap .c1-addr {
   display: flex;
-  align-items: center;
   margin-top: 40px;
   width: 925px;
   height: 376px;
   overflow: hidden;
-}
-.c1-addr-wrap .c1-addr .c1-addr-img {
-  background-color: #fff;
-  width: 35%;
+  box-shadow: 0px 0px 1px 1px;
+  border-radius: 5px;
+  margin-bottom: 50px;
 }
 .c1-addr-wrap .c1-addr .c1-addr-info {
-  width: 65%;
+  width: 50%;
   height: 100%;
-  background-color: #4f6571;
-  color: #fff;
   display: flex;
-  align-items: center;
   justify-content: space-around;
 }
+h4.c1-addr-title {
+  margin-bottom: 35px;
+}
+.addr-male {
+  background-color: #3a7ca5;
+  color: #fff;
+}
+.addr-female {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
 .c1-addr-wrap .c1-addr .c1-addr-info ul {
-  color: #dedede;
   list-style: none;
   line-height: 2.9;
 }
@@ -1201,19 +1203,35 @@ ul.c1-en-exams li {
   font-size: 19px;
   border-radius: 5px;
   padding: 5px 15px;
-  background-color: #000000;
+  box-shadow: 1px 1px 5px -1px #000;
 }
 a.c1-addr-mail {
-  background-color: #fff;
   font-size: 19px;
   border-radius: 5px;
   padding: 5px 15px;
   position: relative;
   top: 20px;
-  right: 50px;
+  right: 31px;
+  box-shadow: 1px 1px 5px -1px #000;
+}
+.c1-addr-map:hover,
+a.c1-addr-mail:hover {
+  box-shadow: inset 0px 0px 5px -1px #000;
+}
+.addr-male a.c1-addr-mail,
+.addr-male .c1-addr-map {
+  background-color: #fff;
+}
+.addr-female a.c1-addr-mail,
+.addr-female .c1-addr-map {
+  background-color: #3a7ca5;
+  color: #fff;
 }
 .c1-media-icons {
-  position: relative;
-  top: 23px;
-  right: 200px;
+  display: flex;
+  justify-content: center;
+}
+.c1-media-icons img {
+  width: 60px;
+  margin: 10px;
 }
