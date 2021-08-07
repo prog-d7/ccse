@@ -912,6 +912,22 @@ p {
   background-color: #c5bbab;
 }
 
+.dean-header {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.dean-header .dean-img {
+  width: 150px;
+  margin-left: 30px;
+}
+.dean-header .dean-img img {
+  width: 100%;
+}
+.dean-header h1 {
+  margin-bottom: 16px;
+}
 /*news page*/
 .body-content .news-title {
   color: #142233;
