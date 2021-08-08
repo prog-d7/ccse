@@ -1251,3 +1251,83 @@ a.c1-addr-mail:hover {
   width: 60px;
   margin: 10px;
 }
+/*collage life boxs */
+.c1-life-boxs {
+  display: flex;
+  justify-content: space-between;
+}
+.c1-life-box {
+  width: 110px;
+  height: 180px;
+  position: relative;
+  overflow: hidden;
+}
+.c1-life-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.life-box-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #65716870;
+  color: #fff;
+  padding: 10px;
+}
+.life-box-content:hover {
+  background-color: #2e353087;
+}
+.life-box-content h5 {
+  color: #a9a9a9;
+  font-size: 14px;
+}
+.life-box-content h3 {
+  text-shadow: 1px 1px 2px #212121;
+  color: #fff !important;
+  text-align: right;
+  font-size: 16px;
+}
+.life-box-content a {
+  position: absolute;
+  bottom: 20px;
+  font-size: 13px;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 1px #000;
+  color: #000;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.life-box-content a:hover {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+/*collage life information*/
+.c1-life-info {
+  display: flex;
+  height: 250px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px -3px;
+  margin-bottom: 40px;
+}
+.c1-life-info img {
+  width: 35%;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+.c1-life-info .life-des h3 {
+  color: #9a846a !important;
+}
+.c1-life-info .life-des p {
+  color: #868686 !important;
+  padding: 0 10px;
+}
+.c1-life-info .life-des q {
+  color: #c4956a !important;
+  padding: 0 10px;
+}
