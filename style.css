@@ -1358,6 +1358,14 @@ a.c1-addr-mail:hover {
   right: -16px;
 }
 
+.cv-header i {
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 0px 6px #000, 0 0 0 12px #fff;
+  z-index: 1;
+}
 .cv-header em {
   font-size: 30px;
   padding: 5px;
@@ -1403,4 +1411,26 @@ a.c1-addr-mail:hover {
 }
 .cv-list p {
   line-height: 1.4;
+}
+/*join study*/
+.c1-for-study {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-top: 115px;
+  margin-bottom: 115px;
+}
+.c1-study-BS,
+.c1-study-MS {
+  padding: 40px;
+  background-color: #496e8e;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 0 10px -4px #000;
+}
+.c1-study-BS:hover,
+.c1-study-MS:hover {
+  background-color: #6089ad;
+  cursor: pointer;
+  box-shadow: 0 0 5px -4px #000;
 }
