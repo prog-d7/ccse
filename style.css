@@ -992,18 +992,19 @@ p {
   padding: 5px;
 }
 .ccse-table tr:nth-child(1) {
-  background-color: #f2f2f2;
+  background-color: #679eb1;
+  color: #fff;
 }
 .ccse-table tr:nth-child(5),
 .ccse-table tr:nth-child(6),
 .ccse-table tr:nth-child(7),
 .ccse-table tr:nth-child(8) {
-  background-color: #f2f2f2;
+  background-color: #ececec;
 }
 .ccse-table tr:nth-child(14),
 .ccse-table tr:nth-child(15),
 .ccse-table tr:nth-child(16) {
-  background-color: #f2f2f2;
+  background-color: #ececec;
 }
 /*structure page*/
 .structure-img img {
