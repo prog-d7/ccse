@@ -1358,7 +1358,7 @@ a.c1-addr-mail:hover {
   right: -16px;
 }
 
-.cv-header i {
+.cv-header em {
   font-size: 30px;
   padding: 5px;
   border-radius: 50%;
@@ -1371,8 +1371,8 @@ a.c1-addr-mail:hover {
   width: 500px;
   background-color: #b19777;
   position: relative;
-  right: -15px;
-  top: -6px;
+  right: -18px;
+  top: 8px;
   border-radius: 10px;
 }
 .cv-timeline {
