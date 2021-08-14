@@ -1135,6 +1135,7 @@ ul.c1-en-exams li {
   color: #fff;
   padding: 10px;
 }
+
 .c1-grid-content:hover {
   background-color: #2e353087;
 }
@@ -1324,6 +1325,9 @@ a.c1-addr-mail:hover {
 .life-box-content a:hover {
   background-color: rgb(0, 0, 0);
   color: #fff;
+}
+.female-bg {
+  background-color: #71657070;
 }
 /*collage life information*/
 .c1-life-info {
