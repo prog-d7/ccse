@@ -789,6 +789,7 @@ p {
   padding: 10px;
   margin-top: 30px;
   border-radius: 10px;
+  background-color: #fff;
 }
 .unit .unit-title {
   border-right: 10px solid #3885ce;
@@ -949,9 +950,11 @@ p {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 .section-news {
-  background-color: #ececec;
+  background-color: #ffffff;
+  box-shadow: 0 0 1px;
 }
 .news-content {
   padding: 20px 10px !important;
@@ -1159,10 +1162,16 @@ ul.c1-en-exams li {
   color: #fff;
 }
 /*list in volunt page*/
+.box-fff {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 1px;
+}
 .c1-vb-list {
   background-color: #fff;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
   position: relative;
   box-shadow: 0px 0px 1px 0px #000;
 }
@@ -1201,7 +1210,7 @@ ul.c1-en-exams li {
   width: 925px;
   height: 376px;
   overflow: hidden;
-  box-shadow: 0px 0px 1px 1px;
+  box-shadow: 0px 0px 1px;
   border-radius: 5px;
   margin-bottom: 50px;
 }
@@ -1230,7 +1239,7 @@ h4.c1-addr-title {
   font-size: 19px;
   border-radius: 5px;
   padding: 5px 15px;
-  box-shadow: 1px 1px 5px -1px #000;
+  box-shadow: 0 0 1px 0 #000;
 }
 a.c1-addr-mail {
   font-size: 19px;
@@ -1239,7 +1248,7 @@ a.c1-addr-mail {
   position: relative;
   top: 20px;
   right: 31px;
-  box-shadow: 1px 1px 5px -1px #000;
+  box-shadow: 0 0 1px 0 #000;
 }
 .c1-addr-map:hover,
 a.c1-addr-mail:hover {
@@ -1424,14 +1433,29 @@ a.c1-addr-mail:hover {
 .c1-study-BS,
 .c1-study-MS {
   padding: 40px;
-  background-color: #496e8e;
+  background-image: linear-gradient(
+    to right top,
+    #1d2e3d,
+    #1c3547,
+    #1a3d52,
+    #14445d,
+    #084c67
+  );
   border-radius: 5px;
   color: #fff;
-  box-shadow: 0 0 10px -4px #000;
+  box-shadow: 10px 10px 14px 1px rgb(162 162 162);
+  transition: all 0.3s;
 }
 .c1-study-BS:hover,
 .c1-study-MS:hover {
-  background-color: #6089ad;
+  background-image: linear-gradient(
+    to right top,
+    #084c67,
+    #14445d,
+    #1a3d52,
+    #1c3547,
+    #1d2e3d
+  );
   cursor: pointer;
-  box-shadow: 0 0 5px -4px #000;
+  box-shadow: 1px 1px 14px 1px rgb(162 162 162);
 }
