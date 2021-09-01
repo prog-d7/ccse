@@ -973,9 +973,12 @@ p {
   margin-top: 15px;
 }
 .body-content .dep-program {
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
-
+.prog-section-bg {
+  background-color: #fff;
+}
 .body-content .dep-info {
   padding: 10px 5px;
   text-align: justify;
@@ -1462,4 +1465,56 @@ a.c1-addr-mail:hover {
   );
   cursor: pointer;
   box-shadow: 1px 1px 14px 1px rgb(162 162 162);
+}
+
+/*library style*/
+.list-category {
+  width: 600px;
+  margin: 0 auto;
+}
+.list-category > ul {
+  display: flex;
+  justify-content: space-between;
+}
+.list-category > ul > li {
+  list-style: none;
+  padding: 5px 15px;
+  border-radius: 22px;
+  background-color: #fff;
+  box-shadow: 0px 0px 3px -2px;
+}
+.lib-title {
+  text-align: center;
+}
+
+.lib-contianer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 50px 0px;
+  box-shadow: 0px 0px 2px -1px;
+  background-color: #ffffff94;
+  margin-bottom: 20px;
+}
+.lib-contianer > h4 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  color: #a0a0a0;
+}
+
+.lib-boxs {
+  width: 250px;
+  margin-left: 47px;
+}
+.lib-img {
+  width: 250px;
+}
+.lib-img img {
+  width: 100%;
+}
+.lib-desc {
+  text-align: center;
 }
