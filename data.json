@@ -1,0 +1,38 @@
+[
+    {
+      "username": "mosalah",
+      "name": "Mohamed Salah",
+      "password": "123456",
+      "age": 29,
+      "Permissions": [
+         {
+            
+            "Date": "26-11-2021",
+            "type": "Prayer",
+            "Time": "Zoher"
+         },
+         {
+            "Date": "26-11-2021",
+            "type": "Prayer",
+            "Time": "Aser"
+         },
+         {
+            "Date": "26-11-2021",
+            "type": "Prayer",
+            "Time": "Maghreb"
+         },
+         {
+            "Date": "27-11-2021",
+            "type": "Prayer",
+            "Time": "Fager"
+         }
+      ]
+   },
+    {
+      "username":"ahosny",
+      "name": "Ahmed Hosny",
+      "password": "987654321",
+      "profession": "clerk",
+      "age": 29
+   }
+]
