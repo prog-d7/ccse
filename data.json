@@ -1,10 +1,5 @@
 {
-    "mydata":[
-    {
-      "username": "mosalah",
-      "name": "Mohamed Salah",
-      "password": "123456",
-      "age": 29,
+    
       "Permissions": [
          {
             
@@ -28,13 +23,5 @@
             "Time": "Fager"
          }
       ]
-   },
-    {
-      "username":"ahosny",
-      "name": "Ahmed Hosny",
-      "password": "987654321",
-      "profession": "clerk",
-      "age": 29
-   }
-        ]
+  
 }
