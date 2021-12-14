@@ -1,4 +1,5 @@
-[
+{
+    "mydata":[
     {
       "username": "mosalah",
       "name": "Mohamed Salah",
@@ -35,4 +36,5 @@
       "profession": "clerk",
       "age": 29
    }
+        ]}
 ]
